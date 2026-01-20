@@ -35,7 +35,7 @@ public class Main {
         AlarmClock alarmClock = new AlarmClock(alarmTime, filePath, scanner);
         Thread alaramThread = new Thread(alarmClock);
         alaramThread.start();
-        
+
 
     }
 }
