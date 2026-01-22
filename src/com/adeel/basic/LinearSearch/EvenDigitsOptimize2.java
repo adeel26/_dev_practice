@@ -6,7 +6,7 @@ public class EvenDigitsOptimize2 {
         System.out.println(findNumbers(nums));
     }
 
-    private static int findNumbers(int[] nums) {
+    static int findNumbers(int[] nums) {
         int count = 0;
 
         for (int i = 0; i < nums.length; i++) {
