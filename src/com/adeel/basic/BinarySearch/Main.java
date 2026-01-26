@@ -95,3 +95,63 @@ mid = start + (end - start) / 2
 Think: “I measure distance from start, then go half way.”
 
  */
+
+// -----------------------------------------------------------------------------
+
+/*
+PART 1: What is SEARCHING?
+Searching = finding something.
+Example:
+Find number 7 in an array
+
+1️⃣ Linear Search (basic idea)
+You check one by one.
+[2, 4, 6, 7, 9]
+
+
+Check:
+2 ❌
+4 ❌
+6 ❌
+7 ✅
+
+⛔ Problem: slow for big arrays
+
+
+PART 2: Why Binary Search?
+Binary search is used when:
+✔ Array is sorted
+
+Instead of checking one by one:
+👉 Cut the array into halves
+
+2️⃣ Binary Search – Big Picture
+Ask only ONE question repeatedly:
+“Is my target on the LEFT or RIGHT?”
+
+3️⃣ Basic Binary Search Code (idea only)
+while (start <= end) {
+    mid = middle index
+
+    if target == arr[mid] → FOUND
+    if target < arr[mid] → go LEFT
+    if target > arr[mid] → go RIGHT
+}
+
+If loop ends → not found
+
+4️⃣ Why start and end?
+They mark the search area:
+[start .......... end]
+
+Each step:
+Search area becomes smaller
+PART 3: What happens when NOT FOUND?
+This is the MOST IMPORTANT concept.
+When binary search ends:
+start > end
+
+Means:
+No place left to search
+But start and end now point to boundary positions
+ */
