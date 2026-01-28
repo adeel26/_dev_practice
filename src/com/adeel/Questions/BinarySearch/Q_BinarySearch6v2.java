@@ -18,7 +18,7 @@ public class Q_BinarySearch6v2 {
             int mid = start + (end - start) / 2;
 
             if (arr[mid-1] < arr[mid] && arr[mid] > arr[mid+1]) {
-                return arr[mid];
+                return mid;
             }
             else if (arr[mid-1] < arr[mid]) { // increasing slop so answer will be in right
                 start = mid + 1;
