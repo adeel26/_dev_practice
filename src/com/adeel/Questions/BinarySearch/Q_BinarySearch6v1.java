@@ -29,5 +29,4 @@ public class Q_BinarySearch6v1 {
         }
         return start;
     }
-
 }
