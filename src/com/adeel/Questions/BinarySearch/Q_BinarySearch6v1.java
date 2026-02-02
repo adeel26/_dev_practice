@@ -32,7 +32,7 @@ public class Q_BinarySearch6v1 {
         // hence, when they are pointing to just one element, that is the max one because that is what the checks say
         // more elaboration: at every point of time for start and end, they have the best possible answer till that time
         // and if we are saying that only one item is remaining, hence because of above line that is the best possible answer
-        
+
         return start;
     }
 }
