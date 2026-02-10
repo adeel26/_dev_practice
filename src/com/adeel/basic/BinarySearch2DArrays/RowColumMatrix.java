@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class RowColumMatrix {
     public static void main(String[] args) {
+        // Row wise sorted & Column wise sorted Array
         int[][] arr = {
                 {10,20,30,40},
                 {15,25,35,45},
