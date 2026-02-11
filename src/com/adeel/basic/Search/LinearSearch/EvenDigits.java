@@ -1,4 +1,4 @@
-package com.adeel.basic.LinearSearch;
+package com.adeel.basic.Search.LinearSearch;
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits
 
 public class EvenDigits {

@@ -1,4 +1,4 @@
-package com.adeel.basic.BinarySearch2DArrays;
+package com.adeel.basic.Search.BinarySearch2DArrays;
 
 import java.util.Arrays;
 

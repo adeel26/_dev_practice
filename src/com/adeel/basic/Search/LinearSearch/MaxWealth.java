@@ -1,4 +1,4 @@
-package com.adeel.basic.LinearSearch;
+package com.adeel.basic.Search.LinearSearch;
 // https://leetcode.com/problems/richest-customer-wealth/description/
 public class MaxWealth {
     public static void main(String[] args) {

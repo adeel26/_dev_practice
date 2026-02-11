@@ -1,4 +1,4 @@
-package com.adeel.basic.LinearSearch;
+package com.adeel.basic.Search.LinearSearch;
 
 public class FindMinMax {
     public static void main(String[] args) {

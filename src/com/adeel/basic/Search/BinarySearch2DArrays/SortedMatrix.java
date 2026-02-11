@@ -1,4 +1,4 @@
-package com.adeel.basic.BinarySearch2DArrays;
+package com.adeel.basic.Search.BinarySearch2DArrays;
 // Doing via true binary search.
 // This can also be done with RowColumnMatrix solution
 import java.util.Arrays;

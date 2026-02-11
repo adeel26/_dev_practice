@@ -1,4 +1,4 @@
-package com.adeel.basic.LinearSearch;
+package com.adeel.basic.Search.LinearSearch;
 
 public class EvenDigitsOptimize2 {
     public static void main(String[] args) {

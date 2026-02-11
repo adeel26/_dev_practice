@@ -1,4 +1,4 @@
-package com.adeel.basic.BinarySearch;
+package com.adeel.basic.Search.BinarySearch;
 
 public class Main {
     public static void main(String[] args) {
