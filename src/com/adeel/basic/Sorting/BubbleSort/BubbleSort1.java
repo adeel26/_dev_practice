@@ -3,7 +3,7 @@ package com.adeel.basic.Sorting.BubbleSort;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class BubbleSort1 {
     public static void main(String[] args) {
         int[] nums = {5, 4, 3, 2, 1};
         bubbleSort(nums);
