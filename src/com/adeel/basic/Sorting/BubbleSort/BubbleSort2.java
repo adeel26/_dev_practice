@@ -9,7 +9,7 @@ public class BubbleSort2 {
         System.out.println(Arrays.toString(nums));
     }
     static void bubbleSort(int[] nums){
-        for (int i = 0; i < nums.length-1 ; i++) {
+        for (int i = 0; i < nums.length ; i++) {
             boolean swapped = false; // Stops if array is already sorted
             for (int j = 0; j < nums.length-1-i ; j++) {
                 if(nums[j] > nums[j+1]){
