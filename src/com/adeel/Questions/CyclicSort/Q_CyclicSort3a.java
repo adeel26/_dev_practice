@@ -2,7 +2,7 @@ package com.adeel.Questions.CyclicSort;
 // https://leetcode.com/problems/find-the-duplicate-number/
 
 
-public class Q_CyclicSort3 {
+public class Q_CyclicSort3a {
     public static void main(String[] args) {
         int[] nums = {1,3,4,2,2};
         System.out.println(findDuplicate(nums));
