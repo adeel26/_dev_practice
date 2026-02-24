@@ -22,7 +22,7 @@ public class Q_CyclicSort5 {
 
         for (int index = 0; index < nums.length; index++) {
             if (nums[index] != index + 1){
-                return new int[] {nums[index], index + 1}; // {duplicateNumber, indexOfDuplicateNumber}
+                return new int[] {nums[index], index + 1}; // {duplicateNumber, MissingNumber}
             }
         }
 
