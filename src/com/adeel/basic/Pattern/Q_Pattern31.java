@@ -9,14 +9,14 @@ public class Q_Pattern31 {
         // Total size of the square = (2*n - 1)
         int size = 2 * n - 1;
 
-        for (int row = 0; row < size; row++) {
-            for (int col = 0; col < size; col++) {
+        for (int row = 1; row <= size; row++) {
+            for (int col = 1; col <= size; col++) {
 
                 // Distance from all four borders
-                int top    = row;
-                int left   = col;
-                int bottom = size - 1 - row;
-                int right  = size - 1 - col;
+                int top    = row - 1;
+                int left   = col - 1;
+                int bottom = size - row;
+                int right  = size - col;
 
                 // Find the nearest border (layer index)
                 int minDistance = Math.min(
