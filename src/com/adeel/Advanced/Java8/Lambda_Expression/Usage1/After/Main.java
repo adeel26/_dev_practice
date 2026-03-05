@@ -1,4 +1,4 @@
-package com.adeel.Advanced.Java8.Lambda_Expression.Usage.After;
+package com.adeel.Advanced.Java8.Lambda_Expression.Usage1.After;
 
 public class Main {
     public static void main(String[] args) {
