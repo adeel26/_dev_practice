@@ -9,7 +9,7 @@ public class Main {
         Collections.sort(list,(a, b) -> b - a);
         System.out.println(list);
 
-        
+
         // Example 2
         Set<Integer> s1 = new TreeSet<>();
         s1.add(22);
