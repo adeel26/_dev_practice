@@ -25,7 +25,7 @@ public class Example2 {
         Predicate<String> isEqualToStr1 = Predicate.isEqual(str1);
         System.out.println(isEqualToStr1.test(str2));
 
-        
+
         // In Predicate, isEqual() is static, while and(), or(), and negate() are default methods.
     }
 }
