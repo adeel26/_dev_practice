@@ -1,5 +1,6 @@
 package com.adeel.Advanced.Java8.Default_Methods_In_Interface;
 
+
 public class Example1 {
     public static void main(String[] args) {
         Child c = new Child();
