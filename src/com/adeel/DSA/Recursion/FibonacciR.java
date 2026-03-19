@@ -8,7 +8,7 @@ public class FibonacciR {
 
     public static int fibonacciR(int n) {
 
-        // base condition
+        // Base condition
         if(n < 2) {
             return n;
         }
