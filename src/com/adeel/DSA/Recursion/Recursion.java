@@ -40,3 +40,19 @@ No base condition:
 -> Memory of computer will exceed the limit.
 -> Stack Overflow error.
  */
+
+
+/*
+How to understand and approach a problem:
+1: Identify if you can break down problem into smaller problems.
+2: Write the recurrence relation if needed.
+3: Draw the recursive tree.
+4: About the tree:
+   -> See the flow of functions, how they are getting in stack.
+   -> Identify and focus on left tree calls and right tree calls.
+   -> Draw the tree and pointers again and again using pen and paper.
+   -> Use a debugger to see the flow.
+5: See how values are returned at each step and what types of values (int, String, etc).
+   See where the function call will come out. In the end, you will come out of the main function.
+
+ */
