@@ -3,7 +3,7 @@ package com.adeel.DSA.Recursion;
 public class BinarySearchR {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 55, 66, 78};
-        int target = 4;
+        int target = 66;
         System.out.println(binarySearchRecursion(arr, target, 0, arr.length - 1));
     }
 
@@ -36,9 +36,9 @@ public class BinarySearchR {
 /*
 Important point:
 Variables:
--> Arguments
--> Return type
--> Body of function
+    -> Arguments
+    -> Return type
+    -> Body of function
 
 Pass those arguments which will be required again in recursive function calls.
 Set those variable in function of body which are not required in recursive calls.
