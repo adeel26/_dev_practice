@@ -37,3 +37,33 @@ public class Q_R_Lvl1_3 {
         System.out.println(n);
     }
 }
+
+/*
+Actual Tree for funcBoth(3)
+
+funcBoth(3)
+├── print 3   (before call)
+└── funcBoth(2)
+    ├── print 2
+    └── funcBoth(1)
+        ├── print 1
+        └── funcBoth(0)
+            └── return
+        └── print 1   (after call)
+    └── print 2
+└── print 3
+
+
+Step-by-step execution
+⬇️ Going DOWN (stack building)
+funcBoth(3) → print 3
+funcBoth(2) → print 2
+funcBoth(1) → print 1
+funcBoth(0) → return
+⬆️ Coming BACK (stack unwinding)
+funcBoth(1) resumes → print 1
+funcBoth(2) resumes → print 2
+funcBoth(3) resumes → print 3
+🎯 Final Output
+3 2 1 1 2 3
+ */
