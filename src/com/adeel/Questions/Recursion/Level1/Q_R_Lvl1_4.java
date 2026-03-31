@@ -1,5 +1,6 @@
 package com.adeel.Questions.Recursion.Level1;
 
+// Recursive factorial function
 public class Q_R_Lvl1_4 {
     public static void main(String[] args) {
         System.out.println(factorialRecursive(5));
