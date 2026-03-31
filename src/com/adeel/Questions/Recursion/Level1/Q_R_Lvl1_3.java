@@ -67,3 +67,57 @@ funcBoth(3) resumes → print 3
 🎯 Final Output
 3 2 1 1 2 3
  */
+
+
+/*
+STACK visualization
+⬇️ Going DOWN (calls)
+Call funcBoth(3)
+Stack:
+[ funcBoth(3) ]
+
+Call funcBoth(2)
+Stack:
+[ funcBoth(3)
+  funcBoth(2) ]
+
+Call funcBoth(1)
+Stack:
+[ funcBoth(3)
+  funcBoth(2)
+  funcBoth(1) ]
+
+Call funcBoth(0)
+Stack:
+[ funcBoth(3)
+  funcBoth(2)
+  funcBoth(1)
+  funcBoth(0) ]
+→ returns immediately
+
+
+
+Coming BACK (unwinding)
+funcBoth(0) returns
+
+Back to funcBoth(1)
+→ executes: System.out.println(1)
+Stack:
+[ funcBoth(3)
+  funcBoth(2)
+  funcBoth(1) ]
+→ pop funcBoth(1)
+
+Back to funcBoth(2)
+→ executes: System.out.println(2)
+Stack:
+[ funcBoth(3)
+  funcBoth(2) ]
+→ pop funcBoth(2)
+
+Back to funcBoth(3)
+→ executes: System.out.println(3)
+Stack:
+[ funcBoth(3) ]
+→ pop funcBoth(3)
+ */
