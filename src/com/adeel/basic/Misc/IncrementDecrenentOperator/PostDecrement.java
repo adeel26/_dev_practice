@@ -1,6 +1,7 @@
 package com.adeel.basic.Misc.IncrementDecrenentOperator;
 
 // Post-Decrement (n--)
+// Use first, then decrease
 public class PostDecrement {
     public static void main(String[] args) {
 
