@@ -24,3 +24,8 @@ public class Q_R_Lvl1_9 {
     }
 
 }
+
+/*
+✅ Cleaner API — caller doesn’t pass rev
+✅ Hides recursion details
+ */
