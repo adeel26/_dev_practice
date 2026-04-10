@@ -1,6 +1,6 @@
 package com.adeel.Questions.Recursion.Level1;
 
-public class Q_R_Lvl1_3 {
+public class Q3_Nto1_1toN_Both {
     public static void main(String[] args) {
         funcBoth(5);
     }

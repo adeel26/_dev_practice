@@ -2,7 +2,7 @@ package com.adeel.Questions.Recursion.Level1;
 
 // Sum of digits via recursion
 
-public class Q_R_Lvl1_6 {
+public class Q6_SumOfDigits {
     public static void main(String[] args) {
         System.out.println(sumOfDigitsR(1345));
     }

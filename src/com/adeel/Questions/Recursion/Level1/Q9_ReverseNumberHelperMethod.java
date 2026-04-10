@@ -2,7 +2,7 @@ package com.adeel.Questions.Recursion.Level1;
 
 // Reverse Number via pure recursive way (Helper Method)
 
-public class Q_R_Lvl1_9 {
+public class Q9_ReverseNumberHelperMethod {
     public static void main(String[] args) {
         int num = 1824;
         int reversed = reverse(num);  // Just call reverse() - clean!

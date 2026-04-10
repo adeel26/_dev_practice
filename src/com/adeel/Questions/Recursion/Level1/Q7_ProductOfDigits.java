@@ -1,7 +1,7 @@
 package com.adeel.Questions.Recursion.Level1;
 
-// Sum of digits via recursion
-public class Q_R_Lvl1_7 {
+// Product of digits via recursion
+public class Q7_ProductOfDigits {
     public static void main(String[] args) {
         System.out.println(sumOfProducts(1345));
     }

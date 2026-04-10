@@ -1,7 +1,7 @@
 package com.adeel.Questions.Recursion.Level1;
 
 // 1 to N
-public class Q_R_Lvl1_2 {
+public class Q2_1toN {
     public static void main(String[] args) {
         funcRev(5);
     }

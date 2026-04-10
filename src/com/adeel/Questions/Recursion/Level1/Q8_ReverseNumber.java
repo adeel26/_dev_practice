@@ -2,7 +2,7 @@ package com.adeel.Questions.Recursion.Level1;
 
 // Reverse Number via recursive way
 
-public class Q_R_Lvl1_8 {
+public class Q8_ReverseNumber {
     public static void main(String[] args) {
         int num = 1824;
         int reversed = 0;
@@ -17,6 +17,7 @@ public class Q_R_Lvl1_8 {
 
         // recursive call
         return reverseNumberR(num / 10, rev * 10 + (num % 10));
+
     }
 }
 

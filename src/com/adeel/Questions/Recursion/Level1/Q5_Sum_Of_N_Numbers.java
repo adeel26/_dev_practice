@@ -1,7 +1,7 @@
 package com.adeel.Questions.Recursion.Level1;
 
 // Sum of N numbers via Recursion
-public class Q_R_Lvl1_5 {
+public class Q5_Sum_Of_N_Numbers {
     public static void main(String[] args) {
         System.out.println(sumN(5));
     }

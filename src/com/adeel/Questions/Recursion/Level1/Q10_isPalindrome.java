@@ -1,6 +1,7 @@
 package com.adeel.Questions.Recursion.Level1;
 
-public class Q_R_Lvl1_10 {
+// Palindrom Recursive
+public class Q10_isPalindrome {
     public static void main(String[] args) {
         int num = 121;
         System.out.println(isPalindrome(num));
