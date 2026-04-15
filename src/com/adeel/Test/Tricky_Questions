@@ -1,0 +1,74 @@
+Common Tricky Interview Questions for Developers
+🔹 1. Logic / Puzzle-Based
+🧩 Classic ones:
+8 balls problem (you just did)
+12 balls (one different, heavier/lighter unknown)
+100 doors problem
+Egg dropping problem
+Water jug problem (measure 4L using 3L & 5L)
+
+👉 Tests: logical thinking + optimization
+
+🔹 2. Bit Manipulation Tricks
+Find single non-duplicate element
+Swap without temp (XOR)
+Check if number is power of 2
+Count set bits
+Find missing number using XOR
+
+👉 These are heavily used in problems on platforms like LeetCode
+
+🔹 3. Array / Pattern Tricks
+First missing positive
+Move zeros to end
+Two sum / three sum
+Kadane’s Algorithm (max subarray)
+Dutch National Flag problem (0s,1s,2s sort)
+
+👉 Tests: pattern recognition
+
+🔹 4. Sorting & Searching Edge Cases
+Sort in O(n) (you asked this ✔️)
+Find kth largest element
+Binary search variations:
+First/last occurrence
+Peak element
+Rotated sorted array search
+🔹 5. String Tricks
+Check anagram
+Longest substring without repeating chars
+Palindrome variations
+String compression
+🔹 6. Recursion & Backtracking
+Generate subsets
+Permutations
+N-Queens
+Maze problems
+
+👉 Tests: thinking in trees
+
+🔹 7. System / Design Thinking (VERY important for you)
+
+Since you're moving into backend:
+
+Design a URL shortener (like Bitly)
+Design a cache system (like Redis)
+Rate limiter design
+API design for a service
+🔹 8. Real-world Coding Traps
+Null pointer issues
+Mutable vs immutable objects
+Thread safety
+Race conditions
+Memory leaks
+🔥 Most Asked “Thinking” Questions (Top Picks)
+
+If you focus on just these, you're already ahead:
+
+XOR tricks (very important)
+Binary search variations
+Kadane’s algorithm
+Counting / Radix sort concept
+Balance scale puzzles
+Two pointer problems
+Sliding window
