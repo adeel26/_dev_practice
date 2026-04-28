@@ -1,6 +1,8 @@
 package com.adeel.Questions.Recursion.Array;
 
 import java.util.ArrayList;
+// Linear Search on multiple occurrences
+// Recursion way
 
 public class Q2_LinearSearchMultipleOcu {
     public static void main(String[] args) {
