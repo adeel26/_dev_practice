@@ -26,4 +26,5 @@ public class Q2_LinearSearchMultipleOcu {
         findAllIndex(nums, target, index+1, list);
 
     }
+    
 }
