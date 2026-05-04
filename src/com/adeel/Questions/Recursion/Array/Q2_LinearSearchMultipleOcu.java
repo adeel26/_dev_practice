@@ -6,6 +6,7 @@ import java.util.ArrayList;
 // Recursion way
 
 public class Q2_LinearSearchMultipleOcu {
+    
     public static void main(String[] args) {
         int[] nums = {3, 2, 1, 18, 18, 9};
         ArrayList<Integer> list = new ArrayList<>();
@@ -26,5 +27,5 @@ public class Q2_LinearSearchMultipleOcu {
         findAllIndex(nums, target, index+1, list);
 
     }
-    
+
 }
