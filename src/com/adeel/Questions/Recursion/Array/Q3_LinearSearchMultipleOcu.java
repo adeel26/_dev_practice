@@ -5,8 +5,8 @@ import java.util.ArrayList;
 // Linear Search on multiple occurrences
 // Recursion way
 
-public class Q2_LinearSearchMultipleOcu {
-    
+public class Q3_LinearSearchMultipleOcu {
+
     public static void main(String[] args) {
         int[] nums = {3, 2, 1, 18, 18, 9};
         ArrayList<Integer> list = new ArrayList<>();
