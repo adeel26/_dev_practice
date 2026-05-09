@@ -9,6 +9,7 @@ public class Q4_Return_ArrayList {
 
     static ArrayList findAllIndex (int[] nums, int target, int index, ArrayList<Integer> list){
         if (index == nums.length)
+            
     }
 
 
