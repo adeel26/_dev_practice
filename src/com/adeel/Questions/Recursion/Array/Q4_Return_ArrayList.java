@@ -20,6 +20,5 @@ public class Q4_Return_ArrayList {
         return findAllIndex(nums, target, index + 1, list);
 
     }
-
-
+    
 }
