@@ -5,5 +5,10 @@ public class Q5_ReturnListWithoutArgs {
         
     }
 
-    static void
+    static void reutrun {
+        
+    }
+
+
+
 }
